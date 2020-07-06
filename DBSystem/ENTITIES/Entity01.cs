@@ -9,8 +9,9 @@ using System.ComponentModel.DataAnnotations;
 namespace DBSystem.ENTITIES
 {
     [Table("Team")]
-    class Entity01
+    public class Entity01
     {
+        [Key]
         public int TeamID { get; set; }
         public string TeamName { get; set; }
     }
